@@ -12,6 +12,12 @@
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
+body{
+	background: url(../src/components/images/bg_banner.jpg) no-repeat;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
 ol, ul {
 	list-style: none;
 }
@@ -36,4 +42,7 @@ img{
 section#home{
 	background: url(./components/images/bg_image_1.jpg) no-repeat;
 	background-size: cover;
+}
+.slick-prev,.slick-next{
+    background: #2a60f6 !important;
 }

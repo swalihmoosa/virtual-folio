@@ -82,7 +82,8 @@ export default function Skills() {
         </>
     )
 }
-const Skillsec = styled.section``
+const Skillsec = styled.section`
+    background: #fff;`
 const H4 = styled.h4`
     text-align: center;
     font-size: 30px;

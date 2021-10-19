@@ -70,7 +70,9 @@ export default function Client() {
         </>
     )
 }
-const Clientsec = styled.section``
+const Clientsec = styled.section`
+    padding-bottom: 10%;
+    background: #fff;`
 const What = styled.h6`
     text-align: center;
     font-size: 33px;

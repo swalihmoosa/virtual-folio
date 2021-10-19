@@ -51,7 +51,8 @@ export default function Stephen() {
         </>
     )
 }
-const Stephensec = styled.section``
+const Stephensec = styled.section`
+    background: #fff;`
 const Secwrap = styled.section`
     display: flex;
     justify-content: space-between;

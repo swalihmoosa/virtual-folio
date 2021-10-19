@@ -1,5 +1,4 @@
 import React from 'react'
-import bg from "../images/bg_banner.jpg"
 import web from "../images/logo/palette-solid.svg"
 import seo from "../images/logo/search-solid.svg"
 import pencil from "../images/logo/pencil-ruler-solid.svg"
@@ -67,31 +66,13 @@ export default function Do() {
                         </Li>
                     </Ul>
                 </section>
-                <Backdiv>
-                    <Backul>
-                        <Backli>
-                            <B>768</B>
-                            <Bp>Clients</Bp>
-                        </Backli>
-                        <Backli>
-                            <B>230</B>
-                            <Bp>Project Complete</Bp>
-                        </Backli>
-                        <Backli>
-                            <B>97</B>
-                            <Bp>Project Ongoing</Bp>
-                        </Backli>
-                        <Backli>
-                            <B>759</B>
-                            <Bp>Client Satisfaction</Bp>
-                        </Backli>
-                    </Backul>
-                </Backdiv>
             </Dosec>
         </>
     )
 }
-const Dosec = styled.section``
+const Dosec = styled.section`
+    background: #fff;
+    padding-bottom: 3%;`
 const Service = styled.div`
     background: #d9e2ff;
     text-align: center;
@@ -128,22 +109,3 @@ const H5 = styled.h5`
 const P = styled.p`
     text-align: center;
     font-size: 17px;`
-const Backdiv = styled.div`
-    background:url(${bg});
-    background-size: cover;
-    background-position: center;
-    padding: 10%;`
-const Backul = styled.ul`
-    display: flex;
-    justify-content: space-between;`
-const Backli = styled.li``
-const B = styled.p`
-    color: #Fff;
-    font-size: 40px;
-    font-weight: 900;
-    text-align: center;`
-const Bp = styled.p`
-    color: #fff;
-    font-size: 22px;
-    font-weight: 700;
-    text-align: center;`

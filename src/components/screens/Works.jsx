@@ -146,7 +146,8 @@ export default function Works() {
     )
 }
 const Worksec = styled.section`
-    padding: 10% 0;`
+    padding: 10% 0;
+    background: #fff;`
 const Port = styled.div`
     background: #d9e2ff;
     text-align: center;
@@ -196,6 +197,10 @@ const Bul = styled.ul`
 const Bli = styled.li`
     width: 30%;
     margin-bottom: 3%;
+    &:hover{
+        transform: scale(1.1);
+        cursor:pointer;
+    }
     &:nth-child(4){
         margin-bottom: 0;
     }

@@ -180,7 +180,8 @@ export default function Education() {
     )
 }
 const Educationsec = styled.section`
-    padding: 10% 0;`
+    padding: 10% 0;
+    background: #fff;`
 const Educations = styled.div`
     display: flex;
     justify-content: space-between;`
