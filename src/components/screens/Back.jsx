@@ -1,27 +1,25 @@
 import React from 'react'
 import styled from 'styled-components'
-import bg from "../images/bg_banner.jpg"
-
 
 export default function Back() {
     return (
         <>
-            <Backdiv>
+            <Backdiv id="backdiv">
                     <Backul>
                         <Backli>
-                            <B>768</B>
+                            <B id="client"></B>
                             <Bp>Clients</Bp>
                         </Backli>
                         <Backli>
-                            <B>230</B>
+                            <B id="project"></B>
                             <Bp>Project Complete</Bp>
                         </Backli>
                         <Backli>
-                            <B>97</B>
+                            <B id="ongo"></B>
                             <Bp>Project Ongoing</Bp>
                         </Backli>
                         <Backli>
-                            <B>759</B>
+                            <B id="sat"></B>
                             <Bp>Client Satisfaction</Bp>
                         </Backli>
                     </Backul>
@@ -30,7 +28,6 @@ export default function Back() {
     )
 }
 const Backdiv = styled.div`
-    // background:url(${bg});
     background:transparent;
     background-size: cover;
     background-position: center;
@@ -49,3 +46,48 @@ const Bp = styled.p`
     font-size: 22px;
     font-weight: 700;
     text-align: center;`
+
+
+
+document.addEventListener('DOMContentLoaded', function(){
+    window.addEventListener('scroll', typefunction);
+    var bar = document.getElementById("backdiv");
+    var sticky = bar.offsetTop - 500;
+
+    function typefunction(){
+        if (window.pageYOffset >= sticky){
+            type();
+        }
+    }
+})
+    let i = 0;
+    let client = 768;
+    let project = 230;
+    let ongo = 97;
+    let sat = 699;
+    let speed = 200;
+
+
+function type() {
+    if (i < client) {
+        document.getElementById("client").innerHTML = i + 1;
+        i++;
+        setTimeout(type, speed);
+    }
+    if (i < project) {
+        document.getElementById("project").innerHTML = i + 1;
+        i++;
+        setTimeout(type, speed);
+    }
+    if (i < ongo) {
+        document.getElementById("ongo").innerHTML = i + 1;
+        i++;
+        setTimeout(type, speed);
+    }
+    if (i < sat) {
+        document.getElementById("sat").innerHTML = i + 1;
+        i++;
+        setTimeout(type, speed);
+    }
+}
+

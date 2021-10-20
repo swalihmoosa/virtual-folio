@@ -1,6 +1,7 @@
 import './App.css';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import 'react-tabs/style/react-tabs.css';
 import Client from './components/screens/Client';
 import Do from './components/screens/Do';
 import Education from './components/screens/Education';

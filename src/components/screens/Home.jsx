@@ -83,12 +83,33 @@ const P = styled.p`
     color: #fff;
     font-size: 25px;
     font-weight: 700;
-    margin-bottom: 3%;`
+    margin-bottom: 3%;
+    animation-duration: 1s;
+    animation-name: slidep;
+    @keyframes slidep {
+        0% {
+          margin-left: 300px;
+        }
+        100% {
+          margin-left: 0%;
+        }
+      }`
 const Name = styled.h3`
     text-align: center;
     color: #fff;
     font-size: 45px;
-    margin-bottom: 3%;`
+    margin-bottom: 3%;
+    animation-duration: 1s;
+    animation-name: slidename;
+    animation-iteration-count: one;
+    @keyframes slidename {
+        0% {
+          margin-left: -300px;
+        }
+        100% {
+          margin-left: 0%;
+        }
+      }`
 const B = styled.b`
     color:#2a60f6;`
 const Design = styled.a`
