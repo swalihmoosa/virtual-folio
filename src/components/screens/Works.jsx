@@ -1,4 +1,5 @@
 import React from 'react'
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import styled from 'styled-components'
 import one from "../images/work/work-1.jpg"
 import two from "../images/work/work-2.jpg"
@@ -20,123 +21,294 @@ export default function Works() {
                     <See>
                         See my work
                     </See>
-                    <Ul>
-                        <Li>
-                            <Lip>
-                                All
-                            </Lip>
-                        </Li>
-                        <Li>
-                            <Lip>
-                                Apps
-                            </Lip>
-                        </Li>
-                        <Li>
-                            <Lip>
-                                Template
-                            </Lip>
-                        </Li>
-                        <Li>
-                            <Lip>
-                                IOS
-                            </Lip>
-                        </Li>
-                        <Li>
-                            <Lip>
-                                UI / UX
-                            </Lip>
-                        </Li>
-                        <Li className="last">
-                            <Lip>
-                                Graphic
-                            </Lip>
-                        </Li>
-                        <Li className="last">
-                            <Lip>
-                                Wireframes
-                            </Lip>
-                        </Li>
-                    </Ul>
-                    <Bul>
+                    <Tabs>
+                        <TabList>
+                            <Tab>
+                                <Lip>
+                                    All
+                                </Lip>
+                            </Tab>
+                            <Tab>
+                                <Lip>
+                                    Apps
+                                </Lip>
+                            </Tab>
+                            <Tab>
+                                <Lip>
+                                    Template
+                                </Lip>
+                            </Tab>
+                            <Tab>
+                                <Lip>
+                                    IOS
+                                </Lip>
+                            </Tab>
+                            <Tab>
+                                <Lip>
+                                    UI / UX
+                                </Lip>
+                            </Tab>
+                            <Tab >
+                                <Lip>
+                                    Graphic
+                                </Lip>
+                            </Tab>
+                            <Tab >
+                                <Lip>
+                                    Wireframes
+                                </Lip>
+                            </Tab>
+                        </TabList>
+                        <TabPanel>
+                            <Bli>
+                                <Btop>
+                                    <Img src={one} alt="Work" />
+                                </Btop>
+                                <Bbottom>
+                                    <Mobile>
+                                        Mobile Travel App
+                                    </Mobile>
+                                    <Travel>
+                                        - Travel,Discovery
+                                    </Travel>
+                                </Bbottom>
+                            </Bli>
+                            <Bli>
+                                <Btop>
+                                    <Img src={two} alt="Work" />
+                                </Btop>
+                                <Bbottom>
+                                    <Mobile>
+                                        Music App
+                                    </Mobile>
+                                    <Travel>
+                                        - Musics
+                                    </Travel>
+                                </Bbottom>
+                            </Bli>
+                            <Bli>
+                                <Btop>
+                                    <Img src={three} alt="Work" />
+                                </Btop>
+                                <Bbottom>
+                                    <Mobile>
+                                        Gaming Dashboard
+                                    </Mobile>
+                                    <Travel>
+                                        - Games,Streaming
+                                    </Travel>
+                                </Bbottom>
+                            </Bli>
+                            <Bli>
+                                <Btop>
+                                    <Img src={four} alt="Work" />
+                                </Btop>
+                                <Bbottom>
+                                    <Mobile>
+                                        Drugs Delivery App
+                                    </Mobile>
+                                    <Travel>
+                                        - Health,Drugs
+                                    </Travel>
+                                </Bbottom>
+                            </Bli>
+                            <Bli>
+                                <Btop>
+                                    <Img src={five} alt="Work" />
+                                </Btop>
+                                <Bbottom>
+                                    <Mobile>
+                                        Musics Discover
+                                    </Mobile>
+                                    <Travel>
+                                        Musics,Dashboard
+                                    </Travel>
+                                </Bbottom>
+                            </Bli>
+                            <Bli>
+                                <Btop>
+                                    <Img src={six} alt="Work" />
+                                </Btop>
+                                <Bbottom>
+                                    <Mobile>
+                                        Game Streaming
+                                    </Mobile>
+                                    <Travel>
+                                        - Games,Streaming
+                                    </Travel>
+                                </Bbottom>
+                            </Bli>
+                        </TabPanel>
+                        <TabPanel>
+                            <Bli>
+                                <Btop>
+                                    <Img src={one} alt="Work" />
+                                </Btop>
+                                <Bbottom>
+                                    <Mobile>
+                                        Mobile Travel App
+                                    </Mobile>
+                                    <Travel>
+                                        - Travel,Discovery
+                                    </Travel>
+                                </Bbottom>
+                            </Bli>
+                            <Bli>
+                                <Btop>
+                                    <Img src={two} alt="Work" />
+                                </Btop>
+                                <Bbottom>
+                                    <Mobile>
+                                        Music App
+                                    </Mobile>
+                                    <Travel>
+                                        - Musics
+                                    </Travel>
+                                </Bbottom>
+                            </Bli>
+                        </TabPanel>
+                        <TabPanel>
+                            <Bli>
+                                <Btop>
+                                    <Img src={one} alt="Work" />
+                                </Btop>
+                                <Bbottom>
+                                    <Mobile>
+                                        Mobile Travel App
+                                    </Mobile>
+                                    <Travel>
+                                        - Travel,Discovery
+                                    </Travel>
+                                </Bbottom>
+                            </Bli>
+                            <Bli>
+                                <Btop>
+                                    <Img src={six} alt="Work" />
+                                </Btop>
+                                <Bbottom>
+                                    <Mobile>
+                                        Game Streaming
+                                    </Mobile>
+                                    <Travel>
+                                        - Games,Streaming
+                                    </Travel>
+                                </Bbottom>
+                            </Bli>
+                        </TabPanel>
+                        <TabPanel>
+                            <Bli>
+                                <Btop>
+                                    <Img src={six} alt="Work" />
+                                </Btop>
+                                <Bbottom>
+                                    <Mobile>
+                                        Game Streaming
+                                    </Mobile>
+                                    <Travel>
+                                        - Games,Streaming
+                                    </Travel>
+                                </Bbottom>
+                            </Bli>
+                        </TabPanel>
+                        <TabPanel>
+                            <Bli>
+                                <Btop>
+                                    <Img src={one} alt="Work" />
+                                </Btop>
+                                <Bbottom>
+                                    <Mobile>
+                                        Mobile Travel App
+                                    </Mobile>
+                                    <Travel>
+                                        - Travel,Discovery
+                                    </Travel>
+                                </Bbottom>
+                            </Bli>
+                            <Bli>
+                                <Btop>
+                                    <Img src={two} alt="Work" />
+                                </Btop>
+                                <Bbottom>
+                                    <Mobile>
+                                        Music App
+                                    </Mobile>
+                                    <Travel>
+                                        - Musics
+                                    </Travel>
+                                </Bbottom>
+                            </Bli>
+                        </TabPanel>
+                        <TabPanel>
                         <Bli>
-                            <Btop>
-                                <Img src={one} alt="Work" />
-                            </Btop>
-                            <Bbottom>
-                                <Mobile>
-                                    Mobile Travel App
-                                </Mobile>
-                                <Travel>
-                                    - Travel,Discovery
-                                </Travel>
-                            </Bbottom>
-                        </Bli>
-                        <Bli>
-                            <Btop>
-                                <Img src={two} alt="Work" />
-                            </Btop>
-                            <Bbottom>
-                                <Mobile>
-                                    Music App
-                                </Mobile>
-                                <Travel>
-                                    - Musics
-                                </Travel>
-                            </Bbottom>
-                        </Bli>
-                        <Bli>
-                            <Btop>
-                                <Img src={three} alt="Work" />
-                            </Btop>
-                            <Bbottom>
-                                <Mobile>
-                                    Gaming Dashboard
-                                </Mobile>
-                                <Travel>
-                                    - Games,Streaming
-                                </Travel>
-                            </Bbottom>
-                        </Bli>
-                        <Bli>
-                            <Btop>
-                                <Img src={four} alt="Work" />
-                            </Btop>
-                            <Bbottom>
-                                <Mobile>
-                                    Drugs Delivery App
-                                </Mobile>
-                                <Travel>
-                                    - Health,Drugs
-                                </Travel>
-                            </Bbottom>
-                        </Bli>
-                        <Bli>
-                            <Btop>
-                                <Img src={five} alt="Work" />
-                            </Btop>
-                            <Bbottom>
-                                <Mobile>
-                                    Musics Discover
-                                </Mobile>
-                                <Travel>
-                                    Musics,Dashboard
-                                </Travel>
-                            </Bbottom>
-                        </Bli>
-                        <Bli>
-                            <Btop>
-                                <Img src={six} alt="Work" />
-                            </Btop>
-                            <Bbottom>
-                                <Mobile>
-                                    Game Streaming
-                                </Mobile>
-                                <Travel>
-                                    - Games,Streaming
-                                </Travel>
-                            </Bbottom>
-                        </Bli>
-                    </Bul>
+                                <Btop>
+                                    <Img src={one} alt="Work" />
+                                </Btop>
+                                <Bbottom>
+                                    <Mobile>
+                                        Mobile Travel App
+                                    </Mobile>
+                                    <Travel>
+                                        - Travel,Discovery
+                                    </Travel>
+                                </Bbottom>
+                            </Bli>
+                            <Bli>
+                                <Btop>
+                                    <Img src={two} alt="Work" />
+                                </Btop>
+                                <Bbottom>
+                                    <Mobile>
+                                        Music App
+                                    </Mobile>
+                                    <Travel>
+                                        - Musics
+                                    </Travel>
+                                </Bbottom>
+                            </Bli>
+                            <Bli>
+                                <Btop>
+                                    <Img src={six} alt="Work" />
+                                </Btop>
+                                <Bbottom>
+                                    <Mobile>
+                                        Game Streaming
+                                    </Mobile>
+                                    <Travel>
+                                        - Games,Streaming
+                                    </Travel>
+                                </Bbottom>
+                            </Bli>
+                        </TabPanel>
+                        <TabPanel>
+                            <Bli>
+                                <Btop>
+                                    <Img src={one} alt="Work" />
+                                </Btop>
+                                <Bbottom>
+                                    <Mobile>
+                                        Mobile Travel App
+                                    </Mobile>
+                                    <Travel>
+                                        - Travel,Discovery
+                                    </Travel>
+                                </Bbottom>
+                            </Bli>
+                            <Bli>
+                                <Btop>
+                                    <Img src={two} alt="Work" />
+                                </Btop>
+                                <Bbottom>
+                                    <Mobile>
+                                        Music App
+                                    </Mobile>
+                                    <Travel>
+                                        - Musics
+                                    </Travel>
+                                </Bbottom>
+                            </Bli>
+                        </TabPanel>
+
+                    </Tabs>
                     <Load>
                         Load More
                     </Load>
@@ -163,22 +335,6 @@ const See = styled.h6`
     font-size: 33px;
     margin-bottom: 50px;
     font-weight: 500;`
-const Ul = styled.ul`
-    width: 45%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin: 0 auto 9%;`
-const Li = styled.li`
-    // width: 18%;
-    border: 2px solid #2a60f6;
-    border-radius: 25px;
-    padding: 3px;
-    text-align: center;
-    &.last{
-        margin: 20px auto 0;
-    }
-    `
 const Lip = styled.p`
     border-radius: 25px;
     color: #2a60f6;
@@ -187,14 +343,8 @@ const Lip = styled.p`
     &:hover{
         background: #2a60f6;
         color: #fff;
-        cursor:pointer;
     }`
-const Bul = styled.ul`
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-bottom: 50px;`
-const Bli = styled.li`
+const Bli = styled.div`
     width: 30%;
     margin-bottom: 3%;
     &:hover{

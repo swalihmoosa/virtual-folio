@@ -19,7 +19,7 @@ body{
 	background-position: center;
 }
 ol, ul {
-	list-style: none;
+	list-style: none !important;
 }
 a{
 	color: #1C2C40;
@@ -45,4 +45,36 @@ section#home{
 }
 .slick-prev,.slick-next{
     background: #2a60f6 !important;
+}
+
+.react-tabs__tab-panel--selected {
+    display: flex !important;
+    justify-content: space-between !important;
+    flex-wrap: wrap !important;
+    margin-bottom: 50px !important;
+}
+.react-tabs__tab-list {
+    border-bottom: 0 !important;
+    width: 45% !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    flex-wrap: wrap !important;
+    margin: 0 auto 9% !important;
+}
+
+.react-tabs__tab--selected p{
+	background: #2a60f6 !important;
+	color: #fff !important;
+}
+.react-tabs__tab {
+	border: 2px solid #2a60f6 !important;
+	border-radius: 25px !important;
+    padding: 3px !important;
+    text-align: center !important;
+}
+ul.react-tabs__tab-list li:nth-child(6n){
+	margin: 20px auto 0 !important;
+}
+ul.react-tabs__tab-list li:nth-child(7n){
+	margin: 20px auto 0 !important;
 }
