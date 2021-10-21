@@ -294,6 +294,7 @@ const Button = styled.a`
         width: 35%;
     }
     @media all and (max-width: 980px){
+        width: 45%;
     }
     @media all and (max-width: 768px){
     }
