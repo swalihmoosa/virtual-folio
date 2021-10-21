@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from "styled-components"
 import arrow from "../images/logo/chevron-down-solid.svg"
-// import eye from "../images/logo/eye-slash-regular.svg"
+import eye from "../images/logo/eye-slash-regular.svg"
 
 export default function Home() {
     return (
@@ -26,18 +26,23 @@ export default function Home() {
                                 En
                             </En>
                             <Icon id="icon" onClick={action}>
-                                <Img src={arrow} alt="Arrow" />
+                                <Img src={arrow} alt="Arrow" id="img"/>
                             </Icon>
-                            <Mobnav id="nav">
-                                <Navli><a href="/">Home</a></Navli>
-                                <Navli><a href="/">About</a></Navli>
-                                <Navli><a href="/">Portfolio</a></Navli>
-                                <Navli><a href="/">Blog</a></Navli>
-                                <Navli><a href="/">Contact</a></Navli>
-                            </Mobnav>
-                            <Moboverlay id="overlay">
+                            <Iconeye id="iconeye" onClick={inaction}>
+                                <Imgg src={eye} alt="Eye" id="eye" />
+                            </Iconeye>
+                            <Navv class="main-nav" id="main-nav">
+                                <Mobnav id="ul">
+                                    <Mobli><a href="/">Home</a></Mobli>
+                                    <Mobli><a href="/">About</a></Mobli>
+                                    <Mobli><a href="/">Portfolio</a></Mobli>
+                                    <Mobli><a href="/">Blog</a></Mobli>
+                                    <Mobli><a href="/">Contact</a></Mobli>
+                                </Mobnav>
+                                <Moboverlay id="overlay">
 
-                            </Moboverlay>
+                                </Moboverlay>
+                            </Navv>
                         </Headersec>
                     </Header>
                     <Spotlight>
@@ -99,16 +104,82 @@ const Icon = styled.div`
     border-radius: 50%;
     background: #2a60f6;
     padding: 12px;
-    display:none;`
+    position:absolute;
+    z-index:10;
+    right:0;
+    right: 10%;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    display:none;
+    @media all and (max-width: 1280px){
+    }
+    @media all and (max-width: 980px){
+    }
+    @media all and (max-width: 768px){
+    }
+    @media all and (max-width: 640px){
+        display:block;
+    }
+    @media all and (max-width: 480px){
+    }
+    @media all and (max-width: 360px){
+    }
+    @media all and (max-width: 320px){
+    }`
 const Img = styled.img`
     filter: invert(1);`
-const Mobnav = styled.ul`
-    width: 90%;
-    position:fixed !important;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
+const Iconeye = styled.div`
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #2a60f6;
+    padding: 12px;
+    position:absolute;
+    z-index:10;
+    right:0;
+    transform: rotateX(90deg);
+    right: 10%;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
     display:none;
+    @media all and (max-width: 1280px){
+    }
+    @media all and (max-width: 980px){
+    }
+    @media all and (max-width: 768px){
+    }
+    @media all and (max-width: 640px){
+        display:block;
+    }
+    @media all and (max-width: 480px){
+    }
+    @media all and (max-width: 360px){
+    }
+    @media all and (max-width: 320px){
+    }`
+const Imgg = styled.img`
+    filter: invert(1);`
+const Navv = styled.nav`
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    z-index: 5;
+    visibility: hidden;
+    transition: all .375s;
+    background: rgba(0,0,0,0.3);`
+const Mobnav = styled.ul`
+    display: inline-flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: flex-end;
+    justify-content: center;
+    transform: translateX(-18%) skew(-16deg);
+    padding: 0 30px;
+    background: #2a60f6;
+    height: 100%;
+    right: 7%;
+	position: fixed;
     @media all and (max-width: 1280px){
     }
     @media all and (max-width: 980px){
@@ -126,6 +197,11 @@ const Mobnav = styled.ul`
 const Moboverlay = styled.section`
     background: rgba(0,0,0,.6);
     display:none;`
+const Mobli = styled.li`
+    display: block;
+    margin: .5rem 0;
+    text-align: right;
+    transform: skew(16deg);`
 const Navli = styled.li`
     a{
         color:#fff;
@@ -213,26 +289,27 @@ const Design = styled.a`
 
     }
 `
-// @media all and (max-width: 1280px){
-// }
-// @media all and (max-width: 980px){
-// }
-// @media all and (max-width: 768px){
-// }
-// @media all and (max-width: 640px){
-// }
-// @media all and (max-width: 480px){
-// }
-// @media all and (max-width: 360px){
-// }
-// @media all and (max-width: 320px){
-// }
 
 function action(){
+    var menu = document.getElementById("main-nav");
     var icon = document.getElementById("icon");
-    var menu = document.getElementById("nav");
-    var overlay = document.getElementById("overlay");
+    var eye = document.getElementById("iconeye");
+    var ul = document.getElementById("ul");
 
 
-    menu.classList.add("nav");
+    menu.classList.add("active");
+    icon.classList.add("active");
+    eye.classList.add("eye");
+    ul.classList.remove("inactive");
+}
+function inaction(){
+    var menu = document.getElementById("main-nav");
+    var icon = document.getElementById("icon");
+    var eye = document.getElementById("iconeye");
+    var ul = document.getElementById("ul");
+
+    menu.classList.remove("active");
+    icon.classList.remove("active");
+    eye.classList.remove("eye");
+    ul.classList.add("inactive");
 }

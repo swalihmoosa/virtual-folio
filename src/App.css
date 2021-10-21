@@ -78,3 +78,55 @@ ul.react-tabs__tab-list li:nth-child(6n){
 ul.react-tabs__tab-list li:nth-child(7n){
 	margin: 20px auto 0 !important;
 }
+
+
+
+nav.active {
+    opacity: 1;
+    z-index: 9;
+    visibility: visible;
+}
+nav.active ul{
+	padding: 0 30px;
+    background: #2a60f6;
+    height: 100%;
+    right: 7%;
+	position: fixed;
+}
+#ul a{
+	color: #fff;
+    font-weight: 700;
+}
+ul.inactive{
+	transform: rotateX(90deg);
+	transition: all .275s .1s;
+}
+.main-nav a {
+    opacity: 0;
+    transform: translateY(-10px);
+}
+
+div.active{
+	transform: rotateX(90deg);
+	transition: all .275s .1s;
+}
+div.eye{
+	transform: rotateX(0deg);
+	transition: all .275s .1s;
+	position: fixed;
+}
+
+@media all and (max-width: 1280px){
+}
+@media all and (max-width: 980px){
+}
+@media all and (max-width: 768px){
+}
+@media all and (max-width: 640px){
+}
+@media all and (max-width: 480px){
+}
+@media all and (max-width: 360px){
+}
+@media all and (max-width: 320px){
+}
