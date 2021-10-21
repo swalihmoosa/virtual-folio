@@ -181,20 +181,97 @@ export default function Education() {
 }
 const Educationsec = styled.section`
     padding: 10% 0;
-    background: #fff;`
+    background: #fff;
+    @media all and (max-width: 1280px){
+    }
+    @media all and (max-width: 980px){
+    }
+    @media all and (max-width: 768px){
+        padding: 10% 0 25%;
+    }
+    @media all and (max-width: 640px){
+    }
+    @media all and (max-width: 480px){
+    }
+    @media all and (max-width: 360px){
+    }
+    @media all and (max-width: 320px){
+    }`
 const Educations = styled.div`
     display: flex;
-    justify-content: space-between;`
+    justify-content: space-between;
+    flex-wrap: wrap;
+    @media all and (max-width: 1280px){
+    }
+    @media all and (max-width: 980px){
+    }
+    @media all and (max-width: 768px){
+    }
+    @media all and (max-width: 640px){
+    }
+    @media all and (max-width: 480px){
+    }
+    @media all and (max-width: 360px){
+    }
+    @media all and (max-width: 320px){
+    }`
 const Experience = styled.div`
-    width: 47%;`
+    width: 47%;
+    @media all and (max-width: 1280px){
+    }
+    @media all and (max-width: 980px){
+    }
+    @media all and (max-width: 768px){
+    }
+    @media all and (max-width: 640px){
+        margin: 0 auto 10%;
+        width: 75%;
+    }
+    @media all and (max-width: 480px){
+        margin: 0 auto 20%;
+    }
+    @media all and (max-width: 360px){
+    }
+    @media all and (max-width: 320px){
+    }`
 const H3 = styled.h3`
     font-size: 25px;
     font-weight: 700;
-    margin-bottom: 25px;`
+    margin-bottom: 25px;
+    @media all and (max-width: 1280px){
+    }
+    @media all and (max-width: 980px){
+    }
+    @media all and (max-width: 768px){
+    }
+    @media all and (max-width: 640px){
+    }
+    @media all and (max-width: 480px){
+    }
+    @media all and (max-width: 360px){
+    }
+    @media all and (max-width: 320px){
+    }`
 const Ul = styled.ul`
     border-left: 2px dotted;
     position: relative;
-    height: 666px;`
+    height: 666px;
+    @media all and (max-width: 1280px){
+    }
+    @media all and (max-width: 980px){
+    }
+    @media all and (max-width: 768px){
+        height: 777px;
+    }
+    @media all and (max-width: 640px){
+    }
+    @media all and (max-width: 480px){
+    }
+    @media all and (max-width: 360px){
+        height: 999px;
+    }
+    @media all and (max-width: 320px){
+    }`
 const Li = styled.li`
     margin-bottom: 25px;
     display: flex;
@@ -209,6 +286,20 @@ const Li = styled.li`
     &.three{
         top: 72%;
     }
+    @media all and (max-width: 1280px){
+    }
+    @media all and (max-width: 980px){
+    }
+    @media all and (max-width: 768px){
+    }
+    @media all and (max-width: 640px){
+    }
+    @media all and (max-width: 480px){
+    }
+    @media all and (max-width: 360px){
+    }
+    @media all and (max-width: 320px){
+    }
 `
 const Head = styled.div``
 const Border = styled.div`
@@ -217,12 +308,40 @@ const Border = styled.div`
     height: 25px;
     border-radius: 50%;
     padding: 3px;
-    background:#fff;`
+    background:#fff;
+    @media all and (max-width: 1280px){
+    }
+    @media all and (max-width: 980px){
+    }
+    @media all and (max-width: 768px){
+    }
+    @media all and (max-width: 640px){
+    }
+    @media all and (max-width: 480px){
+    }
+    @media all and (max-width: 360px){
+    }
+    @media all and (max-width: 320px){
+    }`
 const Color = styled.div`
     background: #2a60f6;
     width: 15px;
     height: 15px;
-    border-radius: 50%;`
+    border-radius: 50%;
+    @media all and (max-width: 1280px){
+    }
+    @media all and (max-width: 980px){
+    }
+    @media all and (max-width: 768px){
+    }
+    @media all and (max-width: 640px){
+    }
+    @media all and (max-width: 480px){
+    }
+    @media all and (max-width: 360px){
+    }
+    @media all and (max-width: 320px){
+    }`
 const Year = styled.div`
     background: #2a60f6;
     width: 75%;
@@ -231,21 +350,91 @@ const Year = styled.div`
     font-weight: 900;
     border-radius: 20px 0px 35px 20px;
     margin-bottom: 25px;
+    @media all and (max-width: 1280px){
+    }
+    @media all and (max-width: 980px){
+    }
+    @media all and (max-width: 768px){
+    }
+    @media all and (max-width: 640px){
+    }
+    @media all and (max-width: 480px){
+    }
+    @media all and (max-width: 360px){
+    }
+    @media all and (max-width: 320px){
+    }
 `
 const P = styled.p``
 const Description = styled.div`
-    width: 93%;`
+    width: 93%;
+    @media all and (max-width: 1280px){
+    }
+    @media all and (max-width: 980px){
+    }
+    @media all and (max-width: 768px){
+    }
+    @media all and (max-width: 640px){
+    }
+    @media all and (max-width: 480px){
+    }
+    @media all and (max-width: 360px){
+    }
+    @media all and (max-width: 320px){
+    }`
 const Des = styled.div`
     background: #dbdbdb;
     padding: 15px;
-    border-radius: 5px`
+    border-radius: 5px
+    @media all and (max-width: 1280px){
+    }
+    @media all and (max-width: 980px){
+    }
+    @media all and (max-width: 768px){
+    }
+    @media all and (max-width: 640px){
+    }
+    @media all and (max-width: 480px){
+    }
+    @media all and (max-width: 360px){
+    }
+    @media all and (max-width: 320px){
+    }`
 const H4 = styled.h4`
     font-size: 20px;
     font-weight: 500;
-    margin-bottom: 5px;`
+    margin-bottom: 5px;
+    @media all and (max-width: 1280px){
+    }
+    @media all and (max-width: 980px){
+    }
+    @media all and (max-width: 768px){
+    }
+    @media all and (max-width: 640px){
+    }
+    @media all and (max-width: 480px){
+    }
+    @media all and (max-width: 360px){
+    }
+    @media all and (max-width: 320px){
+    }`
 const H5 = styled.h5`
     font-size: 17px;
     color: #2a60f6;
     font-weight: 700;
-    margin-bottom: 15px;`
+    margin-bottom: 15px;
+    @media all and (max-width: 1280px){
+    }
+    @media all and (max-width: 980px){
+    }
+    @media all and (max-width: 768px){
+    }
+    @media all and (max-width: 640px){
+    }
+    @media all and (max-width: 480px){
+    }
+    @media all and (max-width: 360px){
+    }
+    @media all and (max-width: 320px){
+    }`
 const Dp = styled.p``

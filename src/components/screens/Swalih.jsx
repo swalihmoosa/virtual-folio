@@ -53,7 +53,24 @@ export default function Stephen() {
 }
 const Stephensec = styled.section`
     background: #fff;
-    padding: 0 0 15% 0;`
+    padding: 0 0 15% 0;
+    @media all and (max-width: 1280px){
+    }
+    @media all and (max-width: 980px){
+    }
+    @media all and (max-width: 768px){
+        padding: 0px 0 22% 0;
+    }
+    @media all and (max-width: 640px){
+        padding: 0px 0 33% 0;
+    }
+    @media all and (max-width: 480px){
+        padding: 0px 0 55% 0;
+    }
+    @media all and (max-width: 360px){
+    }
+    @media all and (max-width: 320px){
+    }`
 const Secwrap = styled.section`
     display: flex;
     justify-content: space-between;
@@ -67,21 +84,23 @@ const Left = styled.div`
     margin-left:50px;
     height: 450px;
     @media all and (max-width: 1280px){
-        display: none;
     }
     @media all and (max-width: 980px){
     }
     @media all and (max-width: 768px){
+        border:0;
+        height: 250px;
     }
     @media all and (max-width: 640px){
+        height: 313px;
     }
     @media all and (max-width: 560px){
     }
     @media all and (max-width: 480px){
-    }
-    @media all and (max-width: 410px){
+        height: 290px;
     }
     @media all and (max-width: 360px){
+        height: 220px;
     }
     @media all and (max-width: 320px){
     }`
@@ -99,8 +118,10 @@ const Imgborder = styled.div`
         right: 0; 
         margin-left: auto; 
         margin-right: auto;
+        top: 5%;
     }
     @media all and (max-width: 640px){
+        width: 38%;
     }
     @media all and (max-width: 480px){
     }
@@ -184,6 +205,7 @@ const Ul = styled.ul`
     @media all and (max-width: 640px){
     }
     @media all and (max-width: 480px){
+        width: 100%;
     }
     @media all and (max-width: 360px){
     }
@@ -276,10 +298,13 @@ const Button = styled.a`
     @media all and (max-width: 768px){
     }
     @media all and (max-width: 640px){
+        width: 45%;
     }
     @media all and (max-width: 480px){
+        width: 60%;
     }
     @media all and (max-width: 360px){
+        width: 90%;
     }
     @media all and (max-width: 320px){
     }`
