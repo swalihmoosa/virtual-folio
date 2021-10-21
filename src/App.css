@@ -147,6 +147,12 @@ div.eye{
 		width: 45% !important;
 		margin-bottom: 5% !important;
 	}
+	.slick-prev {
+		left: 0px !important;
+	}
+	.slick-next {
+		right: -0px !important;
+	}
 }
 @media all and (max-width: 480px){
 	.hbpfxd {

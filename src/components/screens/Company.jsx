@@ -45,13 +45,41 @@ export default function Company() {
 }
 const Comapnysec = styled.section`
     background: #171925;
-    padding: 10% 0;`
+    padding: 10% 0;
+    @media all and (max-width: 1280px){
+    }
+    @media all and (max-width: 980px){
+    }
+    @media all and (max-width: 768px){
+    }
+    @media all and (max-width: 640px){
+    }
+    @media all and (max-width: 480px){
+    }
+    @media all and (max-width: 360px){
+    }
+    @media all and (max-width: 320px){
+    }`
 const Ul = styled.ul`
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     width:90%;
-    margin:0 auto;`
+    margin:0 auto;
+    @media all and (max-width: 1280px){
+    }
+    @media all and (max-width: 980px){
+    }
+    @media all and (max-width: 768px){
+    }
+    @media all and (max-width: 640px){
+    }
+    @media all and (max-width: 480px){
+    }
+    @media all and (max-width: 360px){
+    }
+    @media all and (max-width: 320px){
+    }`
 const Li = styled.li`
     border: 2px solid #6a6a6a;
     padding: 100px;
@@ -80,4 +108,24 @@ const Li = styled.li`
     &.six{
         border-bottom: 0;
         border-right: 0;
+    }
+    @media all and (max-width: 1280px){
+        padding: 60px;
+    }
+    @media all and (max-width: 980px){
+        padding: 50px
+    }
+    @media all and (max-width: 768px){
+        padding: 40px;
+    }
+    @media all and (max-width: 640px){
+        padding: 25px;
+    }
+    @media all and (max-width: 480px){
+        padding: 15px;
+    }
+    @media all and (max-width: 360px){
+        padding: 10px
+    }
+    @media all and (max-width: 320px){
     }`

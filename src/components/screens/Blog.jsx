@@ -85,41 +85,165 @@ const Blogn = styled.h6`
     border-radius: 35px;
     margin: 0 auto 15px;
     font-weight: 700;
-    font-size: 16px;`
+    font-size: 16px;
+    @media all and (max-width: 1280px){
+    }
+    @media all and (max-width: 980px){
+    }
+    @media all and (max-width: 768px){
+    }
+    @media all and (max-width: 640px){
+        width: 30%;
+    }
+    @media all and (max-width: 480px){
+    }
+    @media all and (max-width: 360px){
+    }
+    @media all and (max-width: 320px){
+    }`
 const Latest = styled.p`
     text-align: center;
     font-size: 33px;
     margin-bottom: 50px;
-    font-weight: 500;`
+    font-weight: 500;
+    @media all and (max-width: 1280px){
+    }
+    @media all and (max-width: 980px){
+    }
+    @media all and (max-width: 768px){
+    }
+    @media all and (max-width: 640px){
+    }
+    @media all and (max-width: 480px){
+    }
+    @media all and (max-width: 360px){
+    }
+    @media all and (max-width: 320px){
+    }`
 const Ul = styled.ul`
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;`
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    @media all and (max-width: 1280px){
+    }
+    @media all and (max-width: 980px){
+    }
+    @media all and (max-width: 768px){
+    }
+    @media all and (max-width: 640px){
+    }
+    @media all and (max-width: 480px){
+    }
+    @media all and (max-width: 360px){
+    }
+    @media all and (max-width: 320px){
+    }`
 const Li = styled.li`
     width: 31%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     &:hover{
         transform: scale(1.1);
         cursor:pointer;
+    }
+    @media all and (max-width: 1280px){
+    }
+    @media all and (max-width: 980px){
+    }
+    @media all and (max-width: 768px){
+        width: 45%;
+        &:last-child{
+            margin:25px auto 0;
+        }
+    }
+    @media all and (max-width: 640px){
+    }
+    @media all and (max-width: 480px){
+        width: 75%;
+        margin: 0 auto 25px;
+        &:last-child{
+            margin-top:0;
+        }
+    }
+    @media all and (max-width: 360px){
+        width: 90%;
+    }
+    @media all and (max-width: 320px){
     }`
 const Top = styled.div``
 const Bottom = styled.div`
     padding: 25px 15px;
-    background:#fff;`
+    background:#fff;
+    @media all and (max-width: 1280px){
+    }
+    @media all and (max-width: 980px){
+    }
+    @media all and (max-width: 768px){
+    }
+    @media all and (max-width: 640px){
+    }
+    @media all and (max-width: 480px){
+    }
+    @media all and (max-width: 360px){
+    }
+    @media all and (max-width: 320px){
+    }`
 const Tech = styled.h6`
     color: #2a60f6;
     font-size: 16px;
     font-weight: 700;
-    margin-bottom: 8px;`
+    margin-bottom: 8px;
+    @media all and (max-width: 1280px){
+    }
+    @media all and (max-width: 980px){
+    }
+    @media all and (max-width: 768px){
+    }
+    @media all and (max-width: 640px){
+    }
+    @media all and (max-width: 480px){
+    }
+    @media all and (max-width: 360px){
+    }
+    @media all and (max-width: 320px){
+    }`
 const Fund = styled.p`
     color: #000;
     font-size: 20px;
     font-weight: 500;
-    margin-bottom: 8px;`
+    margin-bottom: 8px;
+    @media all and (max-width: 1280px){
+    }
+    @media all and (max-width: 980px){
+    }
+    @media all and (max-width: 768px){
+    }
+    @media all and (max-width: 640px){
+    }
+    @media all and (max-width: 480px){
+    }
+    @media all and (max-width: 360px){
+    }
+    @media all and (max-width: 320px){
+    }`
 const Date = styled.p`
     color: #000;
     font-size: 15px;
-    font-weight: 700;`
+    font-weight: 700;
+    @media all and (max-width: 1280px){
+    }
+    @media all and (max-width: 980px){
+    }
+    @media all and (max-width: 768px){
+    }
+    @media all and (max-width: 640px){
+    }
+    @media all and (max-width: 480px){
+    }
+    @media all and (max-width: 360px){
+    }
+    @media all and (max-width: 320px){
+    }`
 const See = styled.button`
     background: #2a60f6;
     border: 2px solid #2a60f6;
@@ -133,4 +257,18 @@ const See = styled.button`
         background:#fff;
         color:#2a60f6;
         cursor:pointer;
+    }
+    @media all and (max-width: 1280px){
+    }
+    @media all and (max-width: 980px){
+    }
+    @media all and (max-width: 768px){
+    }
+    @media all and (max-width: 640px){
+    }
+    @media all and (max-width: 480px){
+    }
+    @media all and (max-width: 360px){
+    }
+    @media all and (max-width: 320px){
     }`

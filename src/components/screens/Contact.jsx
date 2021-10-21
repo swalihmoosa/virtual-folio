@@ -43,45 +43,180 @@ const Contactn = styled.h6`
     border-radius: 35px;
     margin: 0 auto 15px;
     font-weight: 700;
-    font-size: 16px;`
+    font-size: 16px;
+    @media all and (max-width: 1280px){
+    }
+    @media all and (max-width: 980px){
+    }
+    @media all and (max-width: 768px){
+        width: 30%;
+    }
+    @media all and (max-width: 640px){
+    }
+    @media all and (max-width: 480px){
+    }
+    @media all and (max-width: 360px){
+        width: 60%;
+    }
+    @media all and (max-width: 320px){
+    }`
 const Get = styled.p`
     text-align: center;
     font-size: 33px;
     margin-bottom: 50px;
-    font-weight: 500;`
+    font-weight: 500;
+    @media all and (max-width: 1280px){
+    }
+    @media all and (max-width: 980px){
+    }
+    @media all and (max-width: 768px){
+    }
+    @media all and (max-width: 640px){
+    }
+    @media all and (max-width: 480px){
+    }
+    @media all and (max-width: 360px){
+    }
+    @media all and (max-width: 320px){
+    }`
 const Sec = styled.div`
     display: flex;
-    justify-content: space-between;`
+    justify-content: space-between;
+    flex-wrap: wrap;
+    @media all and (max-width: 1280px){
+    }
+    @media all and (max-width: 980px){
+    }
+    @media all and (max-width: 768px){
+    }
+    @media all and (max-width: 640px){
+    }
+    @media all and (max-width: 480px){
+    }
+    @media all and (max-width: 360px){
+    }
+    @media all and (max-width: 320px){
+    }`
 const Left = styled.div`
-    width:50%;`
+    width:50%;
+    @media all and (max-width: 1280px){
+    }
+    @media all and (max-width: 980px){
+    }
+    @media all and (max-width: 768px){
+    }
+    @media all and (max-width: 640px){
+        margin: 0 auto 25px;
+        width: 85%;
+    }
+    @media all and (max-width: 480px){
+    }
+    @media all and (max-width: 360px){
+        width:90%;
+    }
+    @media all and (max-width: 320px){
+    }`
 const Right = styled.form`
     width:45%;
-    padding: 5% 0;`
+    padding: 5% 0;
+    @media all and (max-width: 1280px){
+    }
+    @media all and (max-width: 980px){
+    }
+    @media all and (max-width: 768px){
+    }
+    @media all and (max-width: 640px){
+        width: 80%;
+        margin: 0 auto;
+    }
+    @media all and (max-width: 480px){
+    }
+    @media all and (max-width: 360px){
+        width:90%;
+    }
+    @media all and (max-width: 320px){
+    }`
 const Inputw = styled.input`
     width:100%;
     border:2px solid #000;
     padding: 15px 25px;
     border-radius: 10px;
-    margin-bottom: 25px;`
+    margin-bottom: 25px;
+    @media all and (max-width: 1280px){
+    }
+    @media all and (max-width: 980px){
+    }
+    @media all and (max-width: 768px){
+    }
+    @media all and (max-width: 640px){
+    }
+    @media all and (max-width: 480px){
+    }
+    @media all and (max-width: 360px){
+    }
+    @media all and (max-width: 320px){
+    }`
 const Inpute = styled.input`
     border:2px solid #000;
     padding: 15px 25px;
     border-radius: 10px;
     width:47%;
     margin-right:6%;
-    margin-bottom: 25px;`
+    margin-bottom: 25px;
+    @media all and (max-width: 1280px){
+    }
+    @media all and (max-width: 980px){
+    }
+    @media all and (max-width: 768px){
+    }
+    @media all and (max-width: 640px){
+    }
+    @media all and (max-width: 480px){
+    }
+    @media all and (max-width: 360px){
+    }
+    @media all and (max-width: 320px){
+    }`
 const Input = styled.input`
     border:2px solid #000;
     padding: 15px 25px;
     border-radius: 10px;
     width:47%;
-    margin-bottom: 25px;`
+    margin-bottom: 25px;
+    @media all and (max-width: 1280px){
+    }
+    @media all and (max-width: 980px){
+    }
+    @media all and (max-width: 768px){
+    }
+    @media all and (max-width: 640px){
+    }
+    @media all and (max-width: 480px){
+    }
+    @media all and (max-width: 360px){
+    }
+    @media all and (max-width: 320px){
+    }`
 const Textarea = styled.textarea`
     width:100%;
     border:2px solid #000;
     padding: 15px 25px;
     border-radius: 10px;
-    margin-bottom: 25px;`
+    margin-bottom: 25px;
+    @media all and (max-width: 1280px){
+    }
+    @media all and (max-width: 980px){
+    }
+    @media all and (max-width: 768px){
+    }
+    @media all and (max-width: 640px){
+    }
+    @media all and (max-width: 480px){
+    }
+    @media all and (max-width: 360px){
+    }
+    @media all and (max-width: 320px){
+    }`
 const Submit = styled.input`
     background: #2a60f6;
     border: 2px solid #2a60f6;
@@ -94,4 +229,19 @@ const Submit = styled.input`
         background: #fff;
         color: #2a60f6;
         cursor: pointer;
+    }
+    @media all and (max-width: 1280px){
+    }
+    @media all and (max-width: 980px){
+    }
+    @media all and (max-width: 768px){
+    }
+    @media all and (max-width: 640px){
+        margin: 0 auto;
+    }
+    @media all and (max-width: 480px){
+    }
+    @media all and (max-width: 360px){
+    }
+    @media all and (max-width: 320px){
     }`
